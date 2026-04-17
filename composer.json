@@ -1,0 +1,27 @@
+{
+    "name": "wucdbm/symfony-sse-response",
+    "description": "A Symfony SSE Response implementation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wucdbm\\SymfonySseResponse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Kirilov"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "symfony/console": "^6.0|^7.0|^8.0",
+        "symfony/http-foundation": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
